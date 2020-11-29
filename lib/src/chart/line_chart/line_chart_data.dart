@@ -857,7 +857,7 @@ class FlDotCirclePainter extends FlDotPainter {
   })  : color = color ?? Colors.green,
         radius = radius ?? 4.0,
         strokeColor = strokeColor ?? Colors.green.darken(),
-        strokeWidth = 0;
+        strokeWidth = strokeWidth ?? 0.0;
 
   /// Implementation of the parent class to draw the circle
   @override
